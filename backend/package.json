@@ -1,0 +1,20 @@
+{
+  "name": "campus-events-backend",
+  "version": "1.0.0",
+  "description": "Campus Event Management & QR Ticketing Platform - Backend API",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed:admin": "node scripts/seedAdmin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "pdfkit": "^0.20.2",
+    "zod": "^3.24.1"
+  }
+}
